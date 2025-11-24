@@ -1,0 +1,36 @@
+body{
+    margin: 10px;
+}
+p{
+    display: inline;
+}
+h4{
+    display: inline;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+}
+.section {
+    flex: 1;                                /*shorthand for Flex properties, 1 = all share 1/Xth of space equally at all times*/
+    padding: 10px;
+    border: 1px solid hsl(0, 2%, 63%);
+    border-radius: 8px;
+}
+input, button {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;                /*causes the buttons and inputs to calculate their size with margins, 
+                                             padding etc. in mind*/
+    cursor: pointer;
+}
+@media (max-width: 500px) {
+    .container {
+        flex-direction: column;
+    }
+}
