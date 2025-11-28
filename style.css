@@ -16,10 +16,7 @@ body{
     font-weight: 600;
     line-height: 1.5;
 }
-p{
-    display: inline;
-}
-h4{
+p, h4{
     display: inline;
 }
 .container {
@@ -63,6 +60,9 @@ input{
     outline: solid 1px var(--accent-color);
     caret-color: var(--accent-color);
 }
+input:hover{
+    background: var(--secondary-color-hover);
+}
 input:focus{
     background: var(--focus-color);
     outline: solid var(--accent-color);
@@ -78,7 +78,7 @@ button:active{
     box-shadow: 0px 0px 0px;
     border: 2px solid var(--accent-color);
 }
-@media (max-width: 750px) {
+@media (max-width: 1060px) {
     .container {
         flex-direction: column;
     }
