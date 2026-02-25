@@ -1,0 +1,24 @@
+{
+  "name": "stezenie-procentowe",
+  "version": "1.0.0",
+  "description": "perc calc app",
+  "homepage": "https://github.com/wolvahulk/concentration-calculator#readme",
+  "bugs": {
+    "url": "https://github.com/wolvahulk/concentration-calculator/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wolvahulk/concentration-calculator.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
